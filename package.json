@@ -1,0 +1,20 @@
+{
+  "name": "openclaw-workspace",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "arc:tabs": "node scripts/arc-cdp.js tabs",
+    "arc:open": "node scripts/arc-cdp.js open",
+    "arc:click": "node scripts/arc-cdp.js click",
+    "arc:click-text": "node scripts/arc-cdp.js click-text",
+    "arc:type": "node scripts/arc-cdp.js type",
+    "arc:press": "node scripts/arc-cdp.js press",
+    "arc:eval": "node scripts/arc-cdp.js eval",
+    "arc:screenshot": "node scripts/arc-cdp.js screenshot",
+    "arc:wait-url": "node scripts/arc-cdp.js wait-url",
+    "arc:wait-new-page": "node scripts/arc-cdp.js wait-new-page"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}
